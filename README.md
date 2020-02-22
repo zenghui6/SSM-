@@ -32,7 +32,7 @@ spring + springMVC + Mybatis + log4j + MybatisGenerator
 1. 开启注解配置  
 2. 扫描 service 包
 3. 声明事务配置 : DataSourceTransactionManager 
-4. aop 事务支持
+4. aop 声明式事务支持
 
 #### spring-mvc.xml:
 1. 注解驱动: 可加入对Json传输的支持
