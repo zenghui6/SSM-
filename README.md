@@ -24,7 +24,7 @@ spring + springMVC + Mybatis + log4j + MybatisGenerator
     - 绑定mybatis配置文件 : configLocation
     - 绑定Sql映射文件的地址: mapperLocation
     
-4 配置dao接口扫描包,动态实现dao接口注入到spring容器中
+4. 配置dao接口扫描包,动态实现dao接口注入到spring容器中
     - 将 sqlSessionFactory 注入 bean 中 : sqlSessionFactoryBeanName
     - 扫描 dao 包
 
