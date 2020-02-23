@@ -4,6 +4,9 @@ import com.zenghui.entity.Category;
 
 import java.util.List;
 
+/**
+ * @author zeng
+ */
 public interface CategoryMapper {
     int deleteByPrimaryKey(Integer id);
 

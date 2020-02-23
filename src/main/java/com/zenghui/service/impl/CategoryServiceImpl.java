@@ -1,4 +1,4 @@
-package com.zenghui.service.Impl;
+package com.zenghui.service.impl;
 
 import com.zenghui.entity.Category;
 import com.zenghui.mapper.CategoryMapper;
@@ -8,6 +8,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * @author zeng
+ */
 @Service
 public class CategoryServiceImpl implements CategoryService {
 

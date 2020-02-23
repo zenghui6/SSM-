@@ -1,5 +1,8 @@
 package com.zenghui.entity;
 
+/**
+ * @author zeng
+ */
 public class Category {
     private Integer id;
 
